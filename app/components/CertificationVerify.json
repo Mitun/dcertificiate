@@ -1,0 +1,128 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "int256",
+        "name": "_certificateID",
+        "type": "int256"
+      },
+      {
+        "internalType": "string",
+        "name": "_certificateName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_CertificateRecepient",
+        "type": "string"
+      },
+      {
+        "internalType": "int256",
+        "name": "_cgpaObtained",
+        "type": "int256"
+      },
+      {
+        "internalType": "int256",
+        "name": "_cgpaMaximum",
+        "type": "int256"
+      },
+      {
+        "internalType": "string",
+        "name": "_institution",
+        "type": "string"
+      }
+    ],
+    "name": "addNewCertificates",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int256",
+        "name": "",
+        "type": "int256"
+      }
+    ],
+    "name": "allCertificates",
+    "outputs": [
+      {
+        "internalType": "int256",
+        "name": "certificateID",
+        "type": "int256"
+      },
+      {
+        "internalType": "string",
+        "name": "certificateName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "CertificateRecepient",
+        "type": "string"
+      },
+      {
+        "internalType": "int256",
+        "name": "cgpaObtained",
+        "type": "int256"
+      },
+      {
+        "internalType": "int256",
+        "name": "cgpaMaximum",
+        "type": "int256"
+      },
+      {
+        "internalType": "string",
+        "name": "institution",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int256",
+        "name": "_certificateID",
+        "type": "int256"
+      }
+    ],
+    "name": "getCertificateDetails",
+    "outputs": [
+      {
+        "internalType": "int256",
+        "name": "certificateID",
+        "type": "int256"
+      },
+      {
+        "internalType": "string",
+        "name": "certificateName",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "CertificateRecepient",
+        "type": "string"
+      },
+      {
+        "internalType": "int256",
+        "name": "cgpaObtained",
+        "type": "int256"
+      },
+      {
+        "internalType": "int256",
+        "name": "cgpaMaximum",
+        "type": "int256"
+      },
+      {
+        "internalType": "string",
+        "name": "institution",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
